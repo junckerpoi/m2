@@ -1,0 +1,15 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text {
+    -fx-fill: #2c3e50;
+}
