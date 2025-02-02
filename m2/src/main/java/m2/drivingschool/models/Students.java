@@ -19,7 +19,8 @@ public class Students {
     private Date dateOfBirth;
     private String address;
     private Date regestrationDate;
-    private String licenseNumber;
+
+    private String licenseNumber; // driving license
     private Boolean status;
 
     public String getStudentId() {
