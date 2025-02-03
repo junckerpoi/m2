@@ -16,8 +16,8 @@ public class Instructors {
     private Integer instructorId;
 
     @OneToOne
-    @JoinColumn(name = "employeeId", referencedColumnName = "employeeId")
-    private Employees employees;
+    @JoinColumn(name = "userId", referencedColumnName = "userId")
+    private Users users;
 
     private String licenseNumber; // Teaching license
 
@@ -29,12 +29,20 @@ public class Instructors {
         PRACTICAL,
     }
 
-    public String getInstructorId() {
+    public Integer getInstructorId() {
         return instructorId;
     }
 
-    public void setInstructorId(String instructorId) {
+    public void setInstructorId(Integer instructorId) {
         this.instructorId = instructorId;
+    }
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
     }
 
     public String getLicenseNumber() {
