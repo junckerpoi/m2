@@ -1,7 +1,12 @@
 # M2
-
+## DB Login
 Temporary database = h2  
 access with: `localhost:8080/h2-console`  
   
-![Screenshot](md/Screenshot_20250110_224212.png "h2-login-credentials")
+![Screenshot](screenshots/db_login.png "h2-db-login-credentials")  
+## User Login
+username: `admin`  
+password: `admin`  
+  
+![Screenshot](screenshots/user_login.png "user-login-credentials")
 
