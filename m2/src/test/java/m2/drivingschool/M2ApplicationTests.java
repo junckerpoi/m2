@@ -1,4 +1,4 @@
-package m2.packages;
+package m2.drivingschool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
