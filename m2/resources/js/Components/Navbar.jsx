@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from '@inertiajs/react';
+/*
+ * add about snd contact pages
+ *  add login on Navbar
+ *  add enroll now button on Navbar``
+ *
+ * */
 
 const Navbar = () => {
     return (
