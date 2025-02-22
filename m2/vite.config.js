@@ -10,10 +10,18 @@ export default defineConfig({
         }),
         react(),
     ],
-    server: '0.0.0.0',
-    port: 5173,
-    strictPort: true,
-    hmr: {
+    server: {
         host: '0.0.0.0',
-    }
+        port: 5173,
+        strictPort: true,
+
+        hmr: {
+            host: '10.0.0.104',
+            protocol: 'ws',
+        },
+
+        headers: {
+            'Access-Control-Allow-Origin': '*',
+        },
+    },
 });
